@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "selected_colors")
+@Table(name = "selected_colors")    //tworzenie tabeli w bazie, przy uruchomieniu programu
 public class SelectedColor {
 
     @Id
